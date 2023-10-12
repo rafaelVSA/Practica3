@@ -1,0 +1,89 @@
+body{
+    background-image: url(../assets/img/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#txtBienvenida{
+   color: #ffffff;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 55px;
+   text-align: center;
+   margin-top: 8%;
+}
+
+
+.containerBuscarGestion{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 5px;
+    margin-top: 8%;
+    margin-bottom: 18%;
+}
+
+.btnGestion{
+    position: relative;
+    padding: 8px 20px;
+    text-align: none;
+    text-decoration: none;
+    color: #ffd145;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.BotonAgregar{
+    border: 3px solid;
+    transition: all 0.6s ease;
+}
+.BotonAgregar:hover{
+   
+   box-shadow: 0 0 20px var(--color);
+   border-color: var(--color);
+}
+
+.BotonAgregar span:nth-child(n){
+   position: absolute;
+   width: 10px;
+   height: 10px;
+   border: 3px solid;
+   transition: all 0.6s ease;
+}
+
+.BotonAgregar span:nth-child(1){
+   right: 10%;
+   top: -15%;
+  
+}
+
+.BotonAgregar span:nth-child(2){
+   left: 10%;
+   bottom: -10%;
+}
+
+.BotonAgregar:hover span:nth-child(1){
+   right: 80%;
+   transform: rotate(90deg);
+   color: var(--color);
+   background-color: var(--color);
+}
+
+.BotonAgregar:hover span:nth-child(2){
+   left: 80%;
+   transform: rotate(90deg);
+   color: var(--color);
+}
+
+
+footer{
+            
+   width: 100% !important;
+   height: 100px;
+   background-color: gray;
+   color: white;
+   text-align: center;
+   padding-top: 1.5%;
+}
